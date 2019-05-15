@@ -1,6 +1,6 @@
 import { Table, Column, Model, HasMany, BelongsTo, ForeignKey, BeforeSave } from 'sequelize-typescript';
 import { Company } from "./company.model";
-import * as bcrypt from 'bcrypt';
+import * as bcrypt from 'bcryptjs';
 import to from 'await-to-js';
 import * as jsonwebtoken from'jsonwebtoken';
 import { ENV } from '../config';
